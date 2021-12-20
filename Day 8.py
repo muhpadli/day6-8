@@ -10,8 +10,11 @@ print()
 buah[2] = "jeruk"
 print(buah)
 print()
-
-sub_buah = buah[0:2]
-sub_buah2 = buah[:3]
-print(sub_buah)
-print(sub_buah2)
+#slicing data list
+print(buah[1:3])
+print(buah[:3])
+print()
+#menambahkan nilai data list
+buah.insert(3, "pepaya")
+print(buah)
+print()
